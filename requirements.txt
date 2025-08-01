@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.1+cu121
+diffusers==0.27.2
+accelerate==0.29.3
+runpod==1.7.9
+xformers==0.0.31.post1   # instalado sólo en Linux/CUDA; ignóralo en macOS
+pillow>=10.0
